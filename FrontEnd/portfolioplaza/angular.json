@@ -25,7 +25,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "PortfolioPlaza/FrontEnd/portfolioplazanode_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -89,7 +90,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "PortfolioPlaza/FrontEnd/portfolioplaza/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         }
       }
