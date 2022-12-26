@@ -1,0 +1,42 @@
+.row {
+    padding: 40px;
+}
+
+div {
+    background-color: #afb9c8;
+    text-align: center;
+}
+
+/** etiqueta name **/
+
+#name {
+    font-weight: bold;
+    margin-top: 8%;
+    
+}
+
+/** estilos de la foto **/
+
+    @media (min-width: 576px) {
+        #fotodeperfil {
+            position: absolute;
+            width: 15%;
+            border-radius: 100%;
+            box-shadow: 3px 3px 3px grey;
+            left: 4%;
+            top: 500px;
+
+                }
+}
+
+@media (max-width: 575px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 500px;
+
+            }
+}
